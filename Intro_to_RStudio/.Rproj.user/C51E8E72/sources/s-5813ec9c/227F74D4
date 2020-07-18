@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594733631426.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1226394671",
+    "id" : "227F74D4",
+    "lastKnownWriteTime" : 1594547554,
+    "last_content_update" : 1594547554,
+    "path" : "~/shiny/Epidemics/USA_State_Deaths/Deaths_by_state.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

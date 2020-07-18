@@ -1,0 +1,26 @@
+---
+title: "Course description"
+author: "Duncan Golicher"
+date: "04/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+The R language for statistical computing is now the most commonly used tool for reproducible research. Reproducible research means that your data analyses, therefore your scientific findings themselves, are developed in the form of textual software code
+This means that other people can check all your findings and potentially build upon them. The need for reproducibility is now widely accepted in the scientific community. Data analyses have become more complex, involve larger datasets and often involve combining data from different sources. 
+Reproducible code means that scientists can focus on the actual content of a data analysis, rather than on trying to describe the steps taken as a written summary. Code written in R can be shared and **reproduced** by anyone. The same data ebtering the same analytical pathway will produce the same results. Data with the same structure as the original data but different values with produce differing results. This means that scientist can test the robustness of analyses both to changes in the assumptions being made and changes to the data input. 
+The R language has been used for reproducible research from its inception. The development of RStudio made reproducible research in R more generally available. 
+
+## Pre-requisites
+
+This course provides an introduction to the use of the RStudio server. No prior knowledge of either R nor of statistical modelling is assumed.
+
+## Intended learning outcomes
+
+1.  
+

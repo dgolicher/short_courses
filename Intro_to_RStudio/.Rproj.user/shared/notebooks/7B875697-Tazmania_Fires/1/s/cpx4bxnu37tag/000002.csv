@@ -1,0 +1,3 @@
+"0","conn<-sconnect11()"
+"0","d<-get_fires(146,-41.5, dist=2.4)"
+"0","mapview(d,color=""red"", col.regions=""red"") %>% giscourse::hansen_wms()"

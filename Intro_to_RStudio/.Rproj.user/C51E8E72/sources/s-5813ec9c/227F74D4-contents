@@ -1,0 +1,317 @@
+---
+title: "CDC deaths from respiratory illnesses"
+author: "Duncan Golicher"
+date: "11/07/2020"
+output: html_document
+---
+
+The data have been downloaded from 
+
+https://www.cdc.gov/nchs/nvss/vsrr/covid19/index.htm
+
+https://data.cdc.gov/dataset/Provisional-COVID-19-Death-Counts-by-Week-Ending.csv
+
+Date of download 11/07/2020. Go to end of this document for searchable data table
+Due to the long delays in registering cause of death a filter has been applied to include only data up to the end of June.
+
+## CDC definitions
+
+Pneumonia deaths are identified using multiple cause-of-death codes from the 10th Revision of ICD (ICD–10): J12–J18, excluding deaths that involve influenza (J09–J11).
+
+Influenza deaths are identified from the ICD–10 codes J09–J11, and include deaths with pneumonia or COVID-19 listed as a contributing cause of death.
+
+Coronavirus disease deaths are identified using the ICD–10 code U07.1. Deaths are coded to U07.1 when coronavirus disease 2019 or COVID-19 are reported as a cause that **contributed** to death on the death certificate. These can include laboratory confirmed cases, **as well as cases without laboratory confirmation.** If the certifier suspects COVID-19 or determines it was likely (e.g., the circumstances were compelling within a reasonable degree of certainty), they can report COVID-19 as “probable” or “presumed” on the death certificate. COVID-19 is listed as the underlying cause on the death certificate in 94% of deaths.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE,message = FALSE)
+library(readr)
+library(tidyverse)
+library(dygraphs)
+library(xts)
+library(aqm)
+library(lubridate)
+library(usmap)
+```
+
+```{r}
+
+d <- read_csv("Provisional_COVID-19_Death_Counts_by_Week_Ending_Date_and_State.csv")
+pop <- read_csv("State_pops.csv")
+states_df <- usmap::us_map()
+
+left_join(d,pop, by= 'State') ->d
+d$cov_deaths_per_million <- d$`COVID-19 Deaths`/(d$pop/1000000)
+d$total_deaths_per_million <- d$`Total Deaths`/(d$pop/1000000)
+
+d$`End Week`  <- mdy(d$`End Week`)
+d$`Start week`  <- mdy(d$`Start week`)
+d<-filter(d,month(d$`End Week`) < 7) -> d
+names(d)<-gsub(" Deaths", "", names(d))
+```
+
+
+
+# Total deaths through respiratory illness {.tabset}
+
+A searchable shiny app for all the state data is available by clicking here.
+[Open the full shiny app](http://r.bournemouth.ac.uk:3838/Epidemics/USA_State_Deaths/)
+
+The tabs show below are for the whole country and some key states. 
+
+## United States
+
+```{r}
+d %>% filter(State=="United States") -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+## New York
+
+```{r}
+d %>% filter(State=="New York") -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+## Florida
+
+```{r}
+d %>% filter(State=="Florida") -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+
+## Texas
+
+```{r}
+d %>% filter(State=="Texas") -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+
+## California
+
+```{r}
+d %>% filter(State=="California") -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+# Percent of deaths through respiratory illness {.tabset}
+
+## United States
+
+```{r}
+d %>% filter(State=="United States") -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+## New York
+
+```{r}
+d %>% filter(State=="New York") -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+
+## Florida
+
+```{r}
+d %>% filter(State=="Florida") -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+
+## Texas
+
+```{r}
+d %>% filter(State=="Texas") -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+
+## California
+
+```{r}
+d %>% filter(State=="California") -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd)  %>% dyLegend(width = 600)
+```
+
+
+# Total deaths per million for selected states {.tabset}
+
+## New York 
+
+```{r}
+d %>% filter(State=="New York") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+## Florida 
+
+```{r}
+d %>% filter(State=="Florida") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+## Texas 
+
+```{r}
+d %>% filter(State=="Texas") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+## California 
+
+```{r}
+d %>% filter(State=="California") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+## New Jersey 
+
+```{r}
+d %>% filter(State=="New Jersey") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+## Missouri
+
+```{r}
+d %>% filter(State=="Missouri") -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+```
+
+
+# Total deaths per million for all states
+
+A bit of a messy figure, but it shows a lot of data at once. Notice that the states are now converging back to around 200 deaths per miillion of the population per week.
+
+Use the shiny app to find individual states. 
+[Open the full shiny app](http://r.bournemouth.ac.uk:3838/Epidemics/USA_State_Deaths/)
+
+```{r}
+d %>% filter(total_deaths_per_million > 0) %>% pivot_wider(id_cols = 3, names_from = "State", values_from= 'total_deaths_per_million', values_fill = 0) -> df1
+df1<- xts(df1[,-1], order.by=df1$`End Week`)
+dygraph(df1) %>% dyLegend(show = "never") %>% dyAxis("y",logscale = FALSE, "Total weekly deaths per million of the population")
+```
+
+
+# Covid deaths per million for each state
+
+
+
+```{r}
+d %>% filter(cov_deaths_per_million > 0) %>% pivot_wider(id_cols = 3, names_from = "State", values_from= 'cov_deaths_per_million', values_fill = 0) -> df1
+df1<- xts(df1[,-1], order.by=df1$`End Week`)
+dygraph(df1) %>% dyLegend(show = "never") %>% dyAxis("y",logscale = FALSE, "Weekly covid deaths per million of the population")
+```
+
+
+# Map of maximum covid related deaths per million of the population
+
+
+
+```{r}
+d %>% group_by(State) %>% summarise(mx=max(`Pneumonia, Influenza, or COVID-19`, na.rm = TRUE), pop=max(pop)) %>% mutate(permil=mx/(pop/1000000)) ->mxp
+library(sf)
+library(USAboundaries)
+usa<-us_boundaries()
+usa<-select(usa, "name")
+
+names(mxp)[1]<-"name"
+mxp %>% filter(!name %in% c("Hawaii", "Alaska")) -> mxp
+mxp<-merge(usa,mxp)
+#mapview(mxp, zcol="permil")
+```
+
+
+```{r}
+library(tmap)
+
+
+breaks = c(0,10, 20,30, 40, 50, 100,200,300,400) 
+tm_shape(mxp) + tm_polygons(col = "permil", breaks = breaks)
+
+```
+
+
+
+
+
+# Searchable raw data table
+The 
+
+```{r}
+dt(d)
+```
+
+

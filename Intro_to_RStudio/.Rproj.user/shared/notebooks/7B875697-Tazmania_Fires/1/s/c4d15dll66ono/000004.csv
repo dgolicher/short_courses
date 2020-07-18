@@ -1,0 +1,8 @@
+"0","xy<-st_coordinates(d)"
+"0","library(MASS)"
+"0","k <- kde2d(xy[,1],xy[,2],h=.1,n=1000)"
+"0","r <- raster(k)"
+"0","r[r<0.1]<-NA"
+"0","library(RColorBrewer)"
+"0","pal<-RColorBrewer::brewer.pal(11,""Spectral"")[11:1]"
+"0","plot(r, col=pal)"

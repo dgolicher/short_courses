@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594668367715.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FB695C8A",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1594668367715,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D572005A",
+        "caption" : "dune",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=dune&cache_key=D572005A",
+        "displayedObservations" : "20",
+        "environment" : "",
+        "object" : "dune",
+        "preview" : "0",
+        "totalObservations" : "20",
+        "variables" : "31"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

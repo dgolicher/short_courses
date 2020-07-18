@@ -1,0 +1,1 @@
+"0","mapview(r, na.color=""transparent"") %>% giscourse::global_landcover_wms()"

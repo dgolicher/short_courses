@@ -1,0 +1,241 @@
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ [Krstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ sudo cat /etc/passwd[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[10Pcat /etc/passwd[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kless /etc/passwd
+bash: less: command not found
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ less /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwd[1P /etc/passwdh /etc/passwde /etc/passwda /etc/passwdd /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ awk -F':' '{ print $1}' /etc/passwd
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+_apt
+rstudio-server
+rstudio
+messagebus
+shiny
+Debian-exim
+postgres
+epople
+veronicab
+elizabethe
+garethh
+minniej
+curtisl
+esmel
+ricardol
+robm
+ttomasn
+georgiap
+andrewr
+molliet
+msc1
+msc2
+guest
+anuro
+phd1
+minaj
+eli
+ossi
+fabio
+marcus
+addyg
+manu
+pdavies
+vicky
+viki
+khancock
+chris
+sarah
+student1
+andyf
+agataw
+andyj
+benp
+chloec
+clairef
+elizabethw
+evgeniyam
+heathert
+hinat
+katiet
+ogochukwui
+owenk
+richardr
+samanthad
+soheonk
+vanessab
+victoriaa
+weilai
+ivanh
+nguyenm
+elena
+danielc
+emman
+catherineg
+danc
+catherine_g
+cassandrae
+conor
+malikaf
+halley
+hbarker
+eburtonshaw
+lbutterworth
+wfisher
+jgibbs
+jgill
+ehicks
+zlindsey
+hmathews
+hndakala
+hosei
+mpolat
+dstanley
+asymes
+stracey
+lwebster
+ewilson
+aroe
+nmaaranen
+shiwentian
+cantognazza
+ahamza
+jkaur
+osimmons
+sineadm
+bmaxted
+msc_test
+xhan
+okearn
+harrym
+arne
+mandy
+ejones
+mika
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ [Krstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ adduser gue[K[K[Kuser
+bash: adduser: command not found
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ adduser user[1@ 
+bash: add: command not found
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ add user user[1P[C[C[C[C[C[C[C[C[Cwk -F':' '{ print $1}' /etc/passwd[19Phead[C[C[C[C[C[C[C[C[C[C[C[Cless[C[C[C[C[C[C[C[C[C[C[C[C[4@sudo cat[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin mastergh-pages[2Pmaster[4Pcommit -m "first"heckout -b gh-pages[2Pmaster[3@push -u origin[C[C[C[C[C[C[Cgh-pages[6Pcommit -m "first"add .[Kremote add https://github.com/dgolicher/dgolicher.giithub.io[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Ppush -u origin gh-pages
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kcheckout -b gh-pagescd rstudio/dgolicher.github.io/[4Pgit push -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kcd rstudio/dgolicher.github.io/ls[Kcd rstudio[2P/homegit push -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Ktouch .nojekyll git push -u origin gh-pages[6Pcommit -m "first" gh-pages [4Ppush -u origin gh-pagesadd .[Kpush -u origin gh-pagescommit -m "first" gh-pages add [Kcommit -m "first"[10Padd allcommit -m "first"add .[Kcheckout -b gh-pagesommit -m "first" gh-pages [1P[C[C[C[C[C[C[C[C[C[Kadd .[Kpush -u origin gh-pages[2Pmaster[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kpush -u origin masterconfig credential.helper store[9Ppush -u origin masterconfig credential.helper[3Ppush -u origin master[3Pcommit -m "firste"add .[Kcd dgolicher.github.io/ls[Kgit clone https://github.com/dgolicher/dgolicher.github..io.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd rstudiols[Kcd ..sudo chmod -R 777 /home/viki[8Padduser neyriosgit push -u origin mastercommit -m "Heuristic modelling rpub page"add .[Kcommit -m "Heuristic modelling rpub page"[20Ppush -u origin master[5Psudo adduser neyrios[K[K[K[K[K[K[Kuser
+[sudo] password for rstudio: 
+Adding user `user' ...
+Adding new group `user' (1098) ...
+Adding new user `user' (1098) with group `user' ...
+Creating home directory `/home/user' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for user
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ 
+[Krstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ find /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kls[Kcd SIR_Covid/ls[Kcd Epidemics/home/rstudio/shinyls[Kcd /home/shiny?home?shinysudo chmod -R 777 katietcd ..[Kgit clone https://github.com/opensafely/risk-factors-research.gitls[Kcd ..git push -u origin master[4Pcommit -m "first"add .[Kwget http://www.sthda.com/upload/rquery_wordcloud.r[4P echo 62ECB447 && /usr/bin/env && echo A5F72DF8wget http://www.sthda.com/upload/rquery_wordcloud.r'sudo adduser user[K[4Padd [C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[K[K[K[Knew_user
+bash: add: command not found
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ add user new_userfind /home/rstudio  -iname '*nss'
+find: ‘/home/rstudio/webpages/ucu’: Permission denied
+/home/rstudio/shiny/nss
+/home/rstudio/shiny/NSS
+/home/rstudio/rstudio/nss
+find: ‘/home/rstudio/geoserver/data_dir/logs’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/geosapi’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/2018 trenches’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/HER_EX_lines’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/2018_mag’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/2018 excavation data’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/OS_Topo_Area’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/PointGround_mag’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/Cores’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/Place_18_Eval’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/AONB_AREAS’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/HER_Points’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/OS’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/HER_Lines’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/PLACE_Study_Area’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/HER_Extract’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/Local Character’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/Place_Purbeck/HER_Polys’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/Hengistbury_2m_DSM’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/mextrees’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/mastermap’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/Hengistbury_2m_DTM’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/bu_postgis/england_point’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/bu_postgis/sssi_units_england’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/bu/bu_postgis/dorset_line’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/gis_course’: Permission denied
+find: ‘/home/rstudio/geoserver/data_dir/workspaces/AG’: Permission denied
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ find /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kls[Kcd SIR_Covid/ls[Kcd Epidemics/home/rstudio/shinyls[Kcd /home/shiny?home?shinysudo chmod -R 777 katietcd ..[Kgit clone https://github.com/opensafely/risk-factors-research.gitls[Kcd ..git push -u origin master[4Pcommit -m "first"add .[Kwget http://www.sthda.com/upload/rquery_wordcloud.r[4P echo 62ECB447 && /usr/bin/env && echo A5F72DF8wget http://www.sthda.com/upload/rquery_wordcloud.r'sudo adduser user[K[4Padd [C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[Cwk -F':' '{ print $1}' /etc/passwd[19Phead[C[C[C[C[C[C[C[C[C[C[C[Cless[C[C[C[C[C[C[C[C[C[C[C[C[4@sudo cat[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pless[C[C[C[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[C[C[C[C[C[C[C[19@awk -F':' '{ print $1}'[C[C[C[C[C[C[C[C[C[C[C[Cdduser user[K[1@ [C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[Cwk -F':' '{ print $1}' /etc/passwd[19Phead[C[C[C[C[C[C[C[C[C[C[C[Cless[C[C[C[C[C[C[C[C[C[C[C[C[4@sudo cat[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin mastergh-pages[2Pmaster[4Pcommit -m "first"heckout -b gh-pages[2Pmaster[3@push -u origin[C[C[C[C[C[C[Cgh-pages[6Pcommit -m "first"add .[Kremote add https://github.com/dgolicher/dgolicher.github.io[36Ppush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kcheckout -b gh-pagescd rstudio/dgolicher.github.io/[4Pgit push -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kcd rstudio/dgolicher.github.io/ls[Kcd rstudio[2P/homegit push -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Kpush -u origin gh-pages[6Pcommit -m "first"add .[Ktouch .nojekyll git push -u origin gh-pages[6Pcommit -m "first" gh-pages [4Ppush -u origin gh-pagesadd .[Kpush -u origin gh-pagescommit -m "first" gh-pages add [Kcommit -m "first"[10Padd allcommit -m "first"add .[Kcheckout -b gh-pagesommit -m "first" gh-pages [1P[C[C[C[C[C[C[C[C[C[Kadd .[Kpush -u origin gh-pages[2Pmaster[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kpush -u origin masterconfig credential.helper store[9Ppush -u origin masterconfig credential.helper[3Ppush -u origin master[3Pcommit -m "firste"add .[Kcd dgolicher.github.io/ls[Kgit clone https://github.com/dgolicher/dgolicher.github.io.gitls[Kcd rstudiols[Kcd ..sudo chmod -R 777 /home/viki[8Padduser neyriosgit push -u origin mastercommit -m "Heuristic modelling rpub page"[20Ppush -u origin master[5Psudo adduser neyrios
+[sudo] password for rstudio: 
+Adding user `neyrios' ...
+Adding new group `neyrios' (1099) ...
+Adding new user `neyrios' (1099) with group `neyrios' ...
+The home directory `/home/neyrios' already exists.  Not copying from `/etc/skel'.
+adduser: Warning: The home directory `/home/neyrios' does not belong to the user you are currently creating.
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for neyrios
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ sudo adduser neyrios[K[K[K[K[Kw_user
+Adding user `new_user' ...
+Adding new group `new_user' (1100) ...
+Adding new user `new_user' (1100) with group `new_user' ...
+Creating home directory `/home/new_user' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for new_user
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] 
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ 
+sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[K
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;/home/rstudio/webpages/short_courses/Intro_to_RStudiorstudio@28f84c87f2dd:~/webpages/short_courses/Intro_to_RStudio$ cd ..
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ cd ..git add .
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git add .[4Pcd ..git add .sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kls[Kcd SIR_Covid/ls[Kgit add .commit -m "first"push -u origin masteradd .[Kcommit -m "first"push -u origin master[7Pfind -iname '*nss'[7@7home  [C[C[C[C[C[C[C[C[C[C[C[C[C/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@/rstudio[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Padd user new_userfind /home/rstudio  -iname '*nss'[13Psudo adduser neyriosw_user[12Pgit add .[4Pcd ..git add .[K[Krstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ git initi[K
+Initialized empty Git repository in /home/rstudio/webpages/short_courses/.git/
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git initadd .[4Pcd ..git add .sudo adduser new_user[1Pyriosw_user[12Pgit add .

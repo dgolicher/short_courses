@@ -1,0 +1,105 @@
+---
+title: "CDC data"
+output: html_document
+runtime: shiny
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE,message = FALSE)
+library(readr)
+library(tidyverse)
+library(dygraphs)
+library(xts)
+library(aqm)
+library(lubridate)
+```
+
+```{r}
+
+d <- read_csv("Provisional_COVID-19_Death_Counts_by_Week_Ending_Date_and_State.csv")
+pop <- read_csv("State_pops.csv")
+
+left_join(d,pop, by= 'State') ->d
+d$cov_deaths_per_million <- d$`COVID-19 Deaths`/(d$pop/1000000)
+d$total_deaths_per_million <- d$`Total Deaths`/(d$pop/1000000)
+
+d$`End Week`  <- mdy(d$`End Week`)
+d<-filter(d,month(d$`End Week`) < 7) -> d
+names(d)<-gsub(" Deaths", "", names(d))
+
+c_options <- unique(d$State)
+```
+
+# Deaths from respiratory illness {.tabset}
+
+```{r}
+inputPanel(
+  
+  selectInput("State", "State", c_options, selected = 'United States', multiple = FALSE,
+                    selectize = TRUE, width = NULL, size = NULL)
+)
+
+```
+
+## Percentages
+
+```{r eruptions, echo=FALSE}
+
+renderDygraph({
+
+d %>% filter(State==input$State) -> dd
+tot <-dd$`Total`
+date <- dd$`End Week`
+dd %>% select(c(7, 10:13)) ->dd
+dd %>% mutate_all(funs(. / tot*100)) ->dd
+dd<- xts(dd, order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+})
+```
+
+## Totals
+```{r}
+renderDygraph({
+d %>% filter(State==input$State) -> dd
+dd %>% select(c(3,7, 10:13)) ->dd
+
+dd<- xts(dd[,2:6], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+})
+```
+
+
+## Deaths per million
+
+```{r}
+renderDygraph({
+d %>% filter(State==input$State) -> dd
+
+dd %>% select(c(3,15:16)) ->dd
+
+dd<- xts(dd[,2:3], order.by=dd$`End Week`)
+dygraph(dd) %>% dyLegend(width = 600)
+})
+```
+
+
+
+
+
+The data have been downloaded from 
+
+https://www.cdc.gov/nchs/nvss/vsrr/covid19/index.htm
+
+Date of down load 11/07/2020
+
+Due to the long delay in registering deaths only data up to the end of May are used.
+
+## CDC definitions
+
+Pneumonia deaths are identified using multiple cause-of-death codes from the 10th Revision of ICD (ICD–10): J12–J18, excluding deaths that involve influenza (J09–J11). Influenza deaths are identified from the ICD–10 codes J09–J11, and include deaths with pneumonia or COVID-19 listed as a contributing cause of death.
+
+Coronavirus disease deaths are identified using the ICD–10 code U07.1. Deaths are coded to U07.1 when coronavirus disease 2019 or COVID-19 are reported as a cause that **contributed** to death on the death certificate. These can include laboratory confirmed cases, **as well as cases without laboratory confirmation.** If the certifier suspects COVID-19 or determines it was likely (e.g., the circumstances were compelling within a reasonable degree of certainty), they can report COVID-19 as “probable” or “presumed” on the death certificate. COVID-19 is listed as the underlying cause on the death certificate in 94% of deaths.
+
+

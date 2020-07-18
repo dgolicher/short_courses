@@ -1,0 +1,64 @@
+---
+title: "Our World in Data"
+author: "Duncan Golicher"
+date: "7/14/2020"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(readr)
+library(tidyverse)
+library(dygraphs)
+library(xts)
+library(aqm)
+library(DT)
+library(lubridate)
+```
+
+
+```{r}
+
+d<-read.csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
+d$date<-ymd(d$date)
+locations<-unique(d$location)
+d<- mutate(d,percent_positive = round(100*new_cases/new_tests,2))
+
+```
+
+
+```{r}
+inputPanel(
+  
+  selectInput("Location", "Location", locations, selected = 'United States', multiple = FALSE,
+                    selectize = TRUE, width = NULL, size = NULL)
+)
+
+```
+
+
+
+```{r}
+
+
+
+renderDygraph ({
+d %>% filter(location == input$Location) -> dd
+date <- dd$date
+dd<- xts(dd[,35], order.by=date)
+dygraph(dd) %>% dyLegend(width = 600)
+
+dygraph(dd)
+})
+
+```
+
+
+```{r}
+renderDT({
+  d %>% filter(location == input$Location) -> dd
+  aqm::dt(dd)
+})
+```
+

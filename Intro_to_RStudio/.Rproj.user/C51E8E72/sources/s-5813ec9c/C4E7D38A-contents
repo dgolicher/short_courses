@@ -1,0 +1,28 @@
+---
+title: "Pivoting quadrat data"
+author: "Duncan Golicher"
+date: "13/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# library(vegan)
+# data("dune")
+# dune<-data.frame(quadrat=1:20,dune)
+# library(tidyverse)
+# pivot_longer(dune, cols=2:31, values_drop_na = TRUE) %>% filter(value>0) -> d
+# save(dune_data,file="/home/rstudio/rstudio/aqm/data/dune_data.rda")
+# library(aqm)
+
+```
+
+```{r}
+library(aqm)
+data(dune_data)
+dt(dune_data)
+```
+

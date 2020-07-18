@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593865744175.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4AC8BC9E",
+    "lastKnownWriteTime" : 1593866714,
+    "last_content_update" : 1593866714498,
+    "path" : "~/webpages/short_courses/Intro_to_RStudio/Course_specification.Rmd",
+    "project_path" : "Course_specification.Rmd",
+    "properties" : {
+        "cursorPosition" : "25,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
