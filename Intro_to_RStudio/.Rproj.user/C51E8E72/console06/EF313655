@@ -239,3 +239,264 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 ]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git add .[4Pcd ..git add .sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kls[Kcd SIR_Covid/ls[Kgit add .commit -m "first"push -u origin masteradd .[Kcommit -m "first"push -u origin master[7Pfind -iname '*nss'[7@7home  [C[C[C[C[C[C[C[C[C[C[C[C[C/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@/rstudio[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Padd user new_userfind /home/rstudio  -iname '*nss'[13Psudo adduser neyriosw_user[12Pgit add .[4Pcd ..git add .[K[Krstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ git initi[K
 Initialized empty Git repository in /home/rstudio/webpages/short_courses/.git/
 ]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git initadd .[4Pcd ..git add .sudo adduser new_user[1Pyriosw_user[12Pgit add .
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git add .[1Pinitadd .[4Pcd ..git add .sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"
+[master (root-commit) 3c6c57c] first
+ 206 files changed, 32748 insertions(+)
+ create mode 100644 Intro_to_RStudio/.Rhistory
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/console06/EF313655
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/console06/EF313655.env
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/console06/INDEX001
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/pcs/files-pane.pper
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/pcs/source-pane.pper
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/pcs/windowlayoutstate.pper
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/pcs/workbench-pane.pper
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/persistent-state
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/saved_source_markers
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/12DECD1F
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/155FADF3
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/2CDA8F97
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/478DEA3F
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/88740AB8
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/A4FF6B89
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/BDD843DA
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/C43005C9
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/C533D03F
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/D0A2CD8F
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/F95902C1
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/prop/INDEX
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/227F74D4
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/227F74D4-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/2752F8A8
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/2752F8A8-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/4476A867
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/4476A867-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/4AC8BC9E
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/4AC8BC9E-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/581469E2
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/581469E2-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/9C4D0FDD
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/9C4D0FDD-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/C4E7D38A-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/DFA3BA96
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/DFA3BA96-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/FB695C8A
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/FB695C8A-contents
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/lock_file
+ create mode 100644 Intro_to_RStudio/.Rproj.user/C51E8E72/sources/s-5813ec9c/suspend_file
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/c4d15dll66ono/000004.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/c4d15dll66ono/000005.metadata
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/c4d15dll66ono/000005.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/c4d15dll66ono/000005.snapshot
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cjutj3oexdknc/000006.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cpx4bxnu37tag/000002.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cq9rwu0rk9han/000002.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cq9rwu0rk9han/000003.html
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cq9rwu0rk9han/000003.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/cq9rwu0rk9han/000003.metadata
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/csetup_chunk/000002.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/HomeButton-0.0.1/LICENSE
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/HomeButton-0.0.1/easy-button-src.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/HomeButton-0.0.1/glyphicons-21-home.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/HomeButton-0.0.1/home-button.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/HomeButton-0.0.1/home-button.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/Proj4Leaflet-1.0.1/proj4-compressed.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/Proj4Leaflet-1.0.1/proj4leaflet.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/crosstalk-1.0.0/css/crosstalk.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/crosstalk-1.0.0/js/crosstalk.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/crosstalk-1.0.0/js/crosstalk.js.map
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/crosstalk-1.0.0/js/crosstalk.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/crosstalk-1.0.0/js/crosstalk.min.js.map
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/datatables-binding-0.4/datatables.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/datatables-css-0.0.0/datatables-crosstalk.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dt-core-1.10.16/css/jquery.dataTables.extra.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dt-core-1.10.16/css/jquery.dataTables.min.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dt-core-1.10.16/js/jquery.dataTables.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dygraphs-1.1.1/dygraph-combined-dev.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dygraphs-1.1.1/dygraph-combined.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dygraphs-1.1.1/dygraph.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/dygraphs-binding-1.1.1.4/dygraphs.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/htmlwidgets-1.3/htmlwidgets.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/joda-0.0.1/joda.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/jquery-1.11.1/AUTHORS.txt
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/jquery-1.11.1/jquery.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/jquery-1.12.4/LICENSE.txt
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/jquery-1.12.4/jquery.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/images/layers-2x.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/images/layers.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/images/marker-icon-2x.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/images/marker-icon.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/images/marker-shadow.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/leaflet.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-1.3.1/leaflet.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-binding-2.0.2/leaflet.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-providers-1.1.17/leaflet-providers.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-providers-1.1.17/package.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-providers-1.1.17/providers.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-providers-1.1.17/rstudio_install.md
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leaflet-providers-plugin-2.0.2/leaflet-providers-plugin.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/leafletfix-1.0.0/leafletfix.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/css/fullscreen.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/css/fullscreen@2x.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.css.map
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.js.map
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/moment-2.8.4/moment-timezone-with-data.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/moment-2.8.4/moment.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/moment-fquarter-1.0.0/moment-fquarter.min.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/moment-timezone-0.2.5/moment-timezone-with-data.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/moment-timezone-0.2.5/moment.js
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/r-1/data_stars_r0b84c5.txt
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/r-1/data_stars_rb72a4e.txt
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/r-1/data_stars_re7c462.txt
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/rstudio_leaflet-1.3.1/images/1px.png
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/7B875697-Tazmania_Fires/1/s/lib/rstudio_leaflet-1.3.1/rstudio_leaflet.css
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/8E045EAB-quadrats/1/C51E8E72eaea3d9f/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/8E045EAB-quadrats/1/s/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/8E045EAB-quadrats/1/s/csetup_chunk/000002.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/E24062AE-Using_Rstudio/1/C51E8E725813ec9c/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/E24062AE-Using_Rstudio/1/C51E8E72eaea3d9f/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/E24062AE-Using_Rstudio/1/s/c52yxucokw1fp/000002.csv
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/E24062AE-Using_Rstudio/1/s/c52yxucokw1fp/000003.error
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/E24062AE-Using_Rstudio/1/s/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/F875ECCC-0010_using_Rstudio/1/C51E8E72eaea3d9f/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/FF8B9784-Course_specification/1/C51E8E72eaea3d9f/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/FF8B9784-Course_specification/1/s/chunks.json
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 Intro_to_RStudio/.Rproj.user/shared/notebooks/paths
+ create mode 100644 Intro_to_RStudio/Course_specification.Rmd
+ create mode 100644 Intro_to_RStudio/Course_specification.html
+ create mode 100644 Intro_to_RStudio/Intro_to_RStudio.Rproj
+ create mode 100644 Intro_to_RStudio/Using_Rstudio.Rmd
+ create mode 100644 Intro_to_RStudio/Using_Rstudio.html
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/__packages
+ create mode 100644 "Intro_to_RStudio/Using_Rstudio_cache/html/fig.cap \"Inserting a code chunk to load a data file into a data frame. Notice that clicking the green arrow on the chunk runs the code, which leads to an object called d appearing in the invironment pane\"_a5dcd057a22d9803cf14f8320c987271.RData"
+ create mode 100644 "Intro_to_RStudio/Using_Rstudio_cache/html/fig.cap \"Inserting a code chunk to load a data file into a data frame. Notice that clicking the green arrow on the chunk runs the code, which leads to an object called d appearing in the invironment pane\"_a5dcd057a22d9803cf14f8320c987271.rdb"
+ create mode 100644 "Intro_to_RStudio/Using_Rstudio_cache/html/fig.cap \"Inserting a code chunk to load a data file into a data frame. Notice that clicking the green arrow on the chunk runs the code, which leads to an object called d appearing in the invironment pane\"_a5dcd057a22d9803cf14f8320c987271.rdx"
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/rstudio10_8531cb42d8b402a4980af9071b9017f1.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/rstudio10_8531cb42d8b402a4980af9071b9017f1.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/rstudio10_8531cb42d8b402a4980af9071b9017f1.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-10_bc5caff1624b2186c6b42e774fc5f991.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-10_bc5caff1624b2186c6b42e774fc5f991.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-10_bc5caff1624b2186c6b42e774fc5f991.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-11_313f1ae1e640dae5c2cfc1bb08f84142.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-11_313f1ae1e640dae5c2cfc1bb08f84142.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-11_313f1ae1e640dae5c2cfc1bb08f84142.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-12_b7c00a465af3e96429e4f27644f16770.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-12_b7c00a465af3e96429e4f27644f16770.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-12_b7c00a465af3e96429e4f27644f16770.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-13_8f6c07327b5531b73045c3f21212949a.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-13_8f6c07327b5531b73045c3f21212949a.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-13_8f6c07327b5531b73045c3f21212949a.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-2_6ef68a4ce54dd8bc0da4dffd09f9bbe7.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-2_6ef68a4ce54dd8bc0da4dffd09f9bbe7.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-2_6ef68a4ce54dd8bc0da4dffd09f9bbe7.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-3_8962076e1a5e6e7be696dfd31b23ebcb.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-3_8962076e1a5e6e7be696dfd31b23ebcb.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-3_8962076e1a5e6e7be696dfd31b23ebcb.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-4_766b017ddca56114b02edb18a69743ac.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-4_766b017ddca56114b02edb18a69743ac.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-4_766b017ddca56114b02edb18a69743ac.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-5_e0a13b77aca35c9291de7e12cc3aad0a.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-5_e0a13b77aca35c9291de7e12cc3aad0a.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-5_e0a13b77aca35c9291de7e12cc3aad0a.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-6_5ace4b63c950bfb3a25f6f24fae922ce.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-6_5ace4b63c950bfb3a25f6f24fae922ce.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-6_5ace4b63c950bfb3a25f6f24fae922ce.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-7_aeba0946801877e15daf9fd6f5364cd8.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-7_aeba0946801877e15daf9fd6f5364cd8.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-7_aeba0946801877e15daf9fd6f5364cd8.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-8_67b2528bf972b2a83837fbe3a3de00e4.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-8_67b2528bf972b2a83837fbe3a3de00e4.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-8_67b2528bf972b2a83837fbe3a3de00e4.rdx
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-9_36a821e67abb3bd1b84d5f25c7077069.RData
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-9_36a821e67abb3bd1b84d5f25c7077069.rdb
+ create mode 100644 Intro_to_RStudio/Using_Rstudio_cache/html/unnamed-chunk-9_36a821e67abb3bd1b84d5f25c7077069.rdx
+ create mode 100644 Intro_to_RStudio/sleep.csv
+ create mode 100644 Intro_to_RStudio/videos/rstudio_1.mov
+ create mode 100644 Intro_to_RStudio/videos/rstudio_2.mov
+ create mode 100644 Intro_to_RStudio/videos/rstudio_3.mov
+ create mode 100644 Intro_to_RStudio/videos/rstudio_4.mov
+ create mode 100644 Intro_to_RStudio/videos/rstudio_5.mov
+ create mode 100644 Intro_to_RStudio/videos/rstudio_6.mov
+ create mode 100644 images/Screencast_from_30-03-19_09:13:38.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:14:12.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:14:37.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:18:35.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:19:02.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:20:56.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:21:26.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:35:20.webm
+ create mode 100644 images/Screencast_from_30-03-19_09:35:38.webm
+ create mode 100644 images/cliff.jpg
+ create mode 100644 images/cover.png
+ create mode 100644 images/logo.png
+ create mode 100644 images/note.png
+ create mode 100644 images/rstudio.gif
+ create mode 100644 images/slippery.jpg
+ create mode 100644 images/ss_1.gif
+ create mode 100644 images/ss_2.gif
+ create mode 100644 images/ss_3.gif
+ create mode 100644 images/ss_4.gif
+ create mode 100644 images/ss_5.gif
+ create mode 100644 images/ss_6.gif
+ create mode 100644 images/ss_7.gif
+ create mode 100644 images/ss_8.gif
+ create mode 100644 images/ss_9.gif
+ create mode 100644 images/stop.png
+ create mode 100644 images/tip.png
+ create mode 100644 images/warning.png
+ create mode 100644 images/warning1.png
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ git commit -m "first"add .[K[1Pinitadd .[4Pcd ..git add .sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"add .[Kpush -u origin master[4Pcommit -m "first"add .[Kls[Kcd SIR_Covid/ls[Kcd Epidemics/home/rstudio/shinyls[Kcd /home/shiny?home?shinysudo chmod -R 777 katietcd ..[Kgit clone https://github.com/opensafely/risk-factors-research.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..git push -u origin mastercd ..[K[3Plsgit clone https://github.com/opensafely/risk-factors-research.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ksudo chmod -R 777 katietcd ..[Kgit clone https://github.com/opensafely/risk-factors-research.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..git push -u origin master[4Pcommit -m "first"add .[Kwget http://www.sthda.com/upload/rquery_wordcloud.r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P echo 62ECB447 && /usr/bin/env && echo A5F72DF8wget http://www.sthda.com/upload/rquery_wordcloud.r'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo adduser user[Kwget http://www.sthda.com/upload/rquery_wordcloud.r'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P echo 62ECB447 && /usr/bin/env && echo A5F72DF8wget http://www.sthda.com/upload/rquery_wordcloud.r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P echo 62ECB447 && /usr/bin/env && echo A5F72DF8wget http://www.sthda.com/upload/rquery_wordcloud.r'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo adduser user[K[4Padd [C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[Cwk -F':' '{ print $1}' /etc/passwd[19Phead[C[C[C[C[C[C[C[C[C[C[C[Cless[C[C[C[C[C[C[C[C[C[C[C[C[4@sudo cat[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin mastergh-pages[2Pmaster[4Pcommit -m "first"heckout -b gh-pages[2Pmaster[3@push -u origin[C[C[C[C[C[C[Cgh-pages[6Pcommit -m "first"add .[Kremote add https://github.com/dgolicher/dgolicher.github.io[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppush -u origin gh-pagesremote add https://github.com/dgolicher/dgolicher.github.io[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kshort_coo[Kurses
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git remote add https://github.com/dgolicher/short_courses[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "first"[Kadd .[K[1Pinitadd .[4Pcd ..git add .sudo adduser new_user[1Pyriosfind /home/rstudio  -iname '*nss'[16Padd user new_userfind /home/rstudio  -iname '*nss'[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin master[4Pcommit -m "first"push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git push -u origin masterremote add https://github.com/dgolicher/short_courses.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ git remote add https://github.com/dgolicher/short_courses.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppush -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git push -u origin masterremote add https://github.com/dgolicher/short_courses.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin https://github.com/dgolicher/short_courses.git
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ git remote add origin https://github.com/dgolicher/short_courses.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin master[K
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': dgolicher
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://dgolicher@github.com': 
+Counting objects: 239, done.
+Delta compression using up to 16 threads.
+Compressing objects:   0% (1/207)   Compressing objects:   1% (3/207)   Compressing objects:   2% (5/207)   Compressing objects:   3% (7/207)   Compressing objects:   4% (9/207)   Compressing objects:   5% (11/207)   Compressing objects:   6% (13/207)   Compressing objects:   7% (15/207)   Compressing objects:   8% (17/207)   Compressing objects:   9% (19/207)   Compressing objects:  10% (21/207)   Compressing objects:  11% (23/207)   Compressing objects:  12% (25/207)   Compressing objects:  13% (27/207)   Compressing objects:  14% (29/207)   Compressing objects:  15% (32/207)   Compressing objects:  16% (34/207)   Compressing objects:  17% (36/207)   Compressing objects:  18% (38/207)   Compressing objects:  19% (40/207)   Compressing objects:  20% (42/207)   Compressing objects:  21% (44/207)   Compressing objects:  22% (46/207)   Compressing objects:  23% (48/207)   Compressing objects:  24% (50/207)   Compressing objects:  25% (52/207)   Compressing objects:  26% (54/207)   Compressing objects:  27% (56/207)   Compressing objects:  28% (58/207)   Compressing objects:  29% (61/207)   Compressing objects:  30% (63/207)   Compressing objects:  31% (65/207)   Compressing objects:  32% (67/207)   Compressing objects:  33% (69/207)   Compressing objects:  34% (71/207)   Compressing objects:  35% (73/207)   Compressing objects:  36% (75/207)   Compressing objects:  37% (77/207)   Compressing objects:  38% (79/207)   Compressing objects:  39% (81/207)   Compressing objects:  40% (83/207)   Compressing objects:  41% (85/207)   Compressing objects:  42% (87/207)   Compressing objects:  43% (90/207)   Compressing objects:  44% (92/207)   Compressing objects:  45% (94/207)   Compressing objects:  46% (96/207)   Compressing objects:  47% (98/207)   Compressing objects:  48% (100/207)   Compressing objects:  49% (102/207)   Compressing objects:  50% (104/207)   Compressing objects:  51% (106/207)   Compressing objects:  52% (108/207)   Compressing objects:  53% (110/207)   Compressing objects:  54% (112/207)   Compressing objects:  55% (114/207)   Compressing objects:  56% (116/207)   Compressing objects:  57% (118/207)   Compressing objects:  58% (121/207)   Compressing objects:  59% (123/207)   Compressing objects:  60% (125/207)   Compressing objects:  61% (127/207)   Compressing objects:  62% (129/207)   Compressing objects:  63% (131/207)   Compressing objects:  64% (133/207)   Compressing objects:  65% (135/207)   Compressing objects:  66% (137/207)   Compressing objects:  67% (139/207)   Compressing objects:  68% (141/207)   Compressing objects:  69% (143/207)   Compressing objects:  70% (145/207)   Compressing objects:  71% (147/207)   Compressing objects:  72% (150/207)   Compressing objects:  73% (152/207)   Compressing objects:  74% (154/207)   Compressing objects:  75% (156/207)   Compressing objects:  76% (158/207)   Compressing objects:  77% (160/207)   Compressing objects:  78% (162/207)   Compressing objects:  79% (164/207)   Compressing objects:  80% (166/207)   Compressing objects:  81% (168/207)   Compressing objects:  82% (170/207)   Compressing objects:  83% (172/207)   Compressing objects:  84% (174/207)   Compressing objects:  85% (176/207)   Compressing objects:  86% (179/207)   Compressing objects:  87% (181/207)   Compressing objects:  88% (183/207)   Compressing objects:  89% (185/207)   Compressing objects:  90% (187/207)   Compressing objects:  91% (189/207)   Compressing objects:  92% (191/207)   Compressing objects:  93% (193/207)   Compressing objects:  94% (195/207)   Compressing objects:  95% (197/207)   Compressing objects:  96% (199/207)   Compressing objects:  96% (200/207)   Compressing objects:  97% (201/207)   Compressing objects:  97% (202/207)   Compressing objects:  98% (203/207)   Compressing objects:  99% (205/207)   Compressing objects: 100% (207/207)   Compressing objects: 100% (207/207), done.
+Writing objects:   0% (1/239)   Writing objects:   1% (3/239)   Writing objects:   2% (5/239)   Writing objects:   3% (8/239)   Writing objects:   4% (10/239)   Writing objects:   5% (12/239)   Writing objects:   6% (15/239)   Writing objects:   7% (17/239)   Writing objects:   8% (20/239)   Writing objects:   9% (22/239)   Writing objects:  10% (24/239)   Writing objects:  11% (27/239)   Writing objects:  12% (29/239)   Writing objects:  13% (33/239)   Writing objects:  14% (34/239)   Writing objects:  15% (36/239)   Writing objects:  16% (39/239)   Writing objects:  17% (41/239)   Writing objects:  18% (44/239)   Writing objects:  19% (46/239)   Writing objects:  20% (48/239)   Writing objects:  21% (51/239)   Writing objects:  22% (53/239)   Writing objects:  23% (55/239)   Writing objects:  24% (58/239)   Writing objects:  25% (60/239)   Writing objects:  26% (63/239)   Writing objects:  27% (65/239)   Writing objects:  28% (67/239)   Writing objects:  29% (70/239)   Writing objects:  30% (72/239)   Writing objects:  31% (75/239)   Writing objects:  32% (77/239)   Writing objects:  33% (79/239)   Writing objects:  34% (82/239)   Writing objects:  35% (84/239)   Writing objects:  36% (87/239)   Writing objects:  37% (89/239)   Writing objects:  38% (91/239)   Writing objects:  39% (94/239)   Writing objects:  40% (96/239)   Writing objects:  41% (98/239)   Writing objects:  42% (101/239)   Writing objects:  43% (103/239)   Writing objects:  44% (106/239)   Writing objects:  45% (108/239)   Writing objects:  46% (111/239)   Writing objects:  47% (113/239)   Writing objects:  48% (115/239)   Writing objects:  49% (118/239)   Writing objects:  50% (120/239)   Writing objects:  51% (122/239)   Writing objects:  52% (125/239)   Writing objects:  53% (127/239)   Writing objects:  54% (130/239)   Writing objects:  55% (132/239)   Writing objects:  56% (134/239)   Writing objects:  57% (137/239)   Writing objects:  58% (139/239)   Writing objects:  59% (142/239)   Writing objects:  60% (144/239)   Writing objects:  61% (146/239)   Writing objects:  62% (149/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  63% (151/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  64% (153/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  65% (156/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  66% (158/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  67% (161/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  68% (163/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  69% (165/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  70% (168/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  71% (170/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  72% (173/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  73% (175/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  74% (177/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  75% (180/239), 1.05 MiB | 1.10 MiB/s   Writing objects:  75% (181/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  76% (182/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  77% (185/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  78% (187/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  79% (189/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  80% (192/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  81% (194/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  82% (196/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  83% (199/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  84% (201/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  85% (204/239), 2.10 MiB | 993.00 KiB/s   Writing objects:  85% (204/239), 15.76 MiB | 4.99 MiB/s   Writing objects:  85% (205/239), 32.13 MiB | 6.55 MiB/s   Writing objects:  86% (206/239), 32.13 MiB | 6.55 MiB/s   Writing objects:  86% (206/239), 52.23 MiB | 8.60 MiB/s   Writing objects:  86% (207/239), 66.67 MiB | 9.23 MiB/s   Writing objects:  87% (208/239), 88.37 MiB | 11.41 MiB/s   Writing objects:  87% (208/239), 89.32 MiB | 10.58 MiB/s   Writing objects:  87% (209/239), 103.69 MiB | 11.54 MiB/s   Writing objects:  87% (209/239), 125.19 MiB | 14.97 MiB/s   Writing objects:  88% (211/239), 125.19 MiB | 14.97 MiB/s   Writing objects:  89% (213/239), 125.19 MiB | 14.97 MiB/s   Writing objects:  90% (216/239), 125.19 MiB | 14.97 MiB/s   Writing objects:  91% (218/239), 125.19 MiB | 14.97 MiB/s   Writing objects:  92% (220/239), 136.31 MiB | 15.56 MiB/s   Writing objects:  92% (222/239), 136.31 MiB | 15.56 MiB/s   Writing objects:  93% (223/239), 136.31 MiB | 15.56 MiB/s   Writing objects:  94% (225/239), 136.31 MiB | 15.56 MiB/s   Writing objects:  95% (228/239), 136.31 MiB | 15.56 MiB/s   Writing objects:  96% (230/239), 145.17 MiB | 15.19 MiB/s   Writing objects:  97% (232/239), 145.17 MiB | 15.19 MiB/s   Writing objects:  98% (235/239), 145.17 MiB | 15.19 MiB/s   Writing objects:  99% (237/239), 145.17 MiB | 15.19 MiB/s   Writing objects: 100% (239/239), 145.17 MiB | 15.19 MiB/s   Writing objects: 100% (239/239), 153.06 MiB | 17.28 MiB/s, done.
+Total 239 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), done.[K
+To https://github.com/dgolicher/short_courses.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;/home/rstudio/webpages/short_coursesrstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ [Krstudio@28f84c87f2dd:~/webpages/short_courses$ git push -u origin masterremote add origin https://github.com/dgolicher/short_courses.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin master[Kremote add https://github.com/dgolicher/short_courses.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[36Ppush -u origin masterremote add https://github.com/dgolicher/short_courses[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "first"[Kadd .[K

@@ -61,30 +61,60 @@ Look carefully at the interface and learn to recognise the sections.
 3. The files, plots, packages, help and viewer tab at the bottom right. The files tab is the most important to understand at this stage. There will be no files in your home directory yet, nor will there be any folders.
 
 
-### Next steps
+## Next steps
 
 [![Video 2](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_2.mov "Link Title")
 
-### Navigating through the panes
+## Navigating through the panes
 
 The console and script panes.
 
 [![Video 3](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_3.mov "Link Title")
 
-### Shortcuts
+## Shortcuts
 
 [![Video 4](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_4.mov "Link Title")
 
-### More on shortcuts
+## More on shortcuts
 
 [![Video 5](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_5.mov "Link Title")
 
+## Simple example of how to use the R console
 
 [![Video 6](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_6.mov "Link Title")
 
+## Moving data between the Rstudio server and your PC
+
+A key concept to understand when using the server is that your home directory on the server is like a directory (folder) on your PC. In one sense it is rather like the university H drive. 
+However the data, the instructions for processing the data and the software (R and R packages) are all "encapsulated" on the server.
+So this is different from your H drive, as you cannot run analyses using the standard university server.
+
+In order to move data files and scripts into your home directory within the server you must **upload** them. You will see buttons labelled **New Folder, Upload, Delete, Rename and More**. If you click on the **More** button you will also find an option to **Export** your files. The **upload** and the **export** buttons are frequently used to move files onto the server and to directly move files off the server. It is **very important** to be aware of this concept. Files saved on the server will always be available for use later. In contrast active analyses that take place in the server memory, as opposed to the server's hard disk space, will be temporary and will be lost between sessions.
+
+To see the way data is moved between the server and your PC or laptop watch this video.
+Note that the command that you type into the console in order to add the example data set is 
+
+**aqm::add_file()**
+
+[![Video 7](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_7.mov "Link Title")
+
+## Loading data into R
 
 
-A key concept to understand when using the server is that your home directory on the server is like a directory (folder) on your PC. It is rather like the university H drive. However it is all "encapsulated" on the server, which is also running R. So it is distinct from your H drive and it is not directly linked.  In order to move data files and scripts into your home directory you must **upload** them. You will see buttons labelled **New Folder, Upload, Delete, Rename and More**. If you click on the **More** button you will also find an option to **Export** your files. The **upload** and the **export** buttons are frequently used to move files onto the server and to directly move files off the server. It is **very important** to be aware of this concept. Files saved on the server will always be available for use later. In contrast active analyses that take place in the server memory, as opposed to the server's hard disk space, will be temporary and will be lost between sessions.
+It is important to draw a clear distinction between uploading data onto the RStudio server and actually working with data in R. Uploading a data file simply involves moving the file from one place to another. Loading data into R involves turning the data held in the data file into data held in a format R can work with. 
+
+###  The absolute wrong way to load data into R
+
+The video below shows the technique that you might stumble across  yourself if you explore the Rstudio interface.** This is not recomended practice **. I include the example in order to dissuade users from following it. 
+
+[![Video 8](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_8.mov "Link Title")
+
+###  A better way to load data into R
+
+The video shows the way data can be loaded by users developing an R script. This is common pracice. It is reproducible, and therefore acceptable. However there is an even better way of working that will be explained in the next section.
+
+[![Video 9](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_9.mov "Link Title")
+
 
 ## Using projects in RStudio
 
@@ -102,6 +132,9 @@ To form a new project and add a new folder
 8. Click on home. You can see a folder called sleep in your home directory. So .. you have created a new project and placed the project file within the folder. 
 
 
+[![Video 10](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_10.mov "Link Title")
+
+
 ```{r,fig.cap="Animated gif showing the steps taken when opening a new project. (Note the gif will be static in a PDF version of this document)"}
 
 if(knitr::is_html_output()) {
@@ -112,11 +145,10 @@ if(knitr::is_html_output()) {
 
 ## Uploading data
 
-The course material generally uses data that is already placed on the server. However in order in order to conduct your own data analyses you will need to upload data files to your folders. The easiest way to ensure that the data and the data analysis are kept unified is to upload the data into the same folder you opened for the analysis project.  That way there will be no need to specify a path when the data are read into R.
-
-Although R can read data from many different formats, the data files that you upload must be in some form of conventional format. The easiest format to use is to save each table as a single comma separated variable (.csv) file. The first line should contain short variable names with no spaces. The variable definitions should be kept separately and referred to when writing figure labels and captions, but not used in the column headers.
 
 Data files are added to the project using the upload button in the files pane (bottom right). If you want to upload multiple files at once (e.g shapefiles) you should first compress them into a zip file. The zip file will expand when uploaded.
+
+Although R can read data from many different formats, the data files that you upload must be in some form of conventional format. The easiest format to use is to save each table as a single comma separated variable (.csv) file. The first line should contain short variable names with no spaces. The variable definitions should be kept separately and referred to when writing figure labels and captions, but not used in the column headers.
 
 ```{r,fig.caption= "Uploading a file into the RStudio server. Use the upload button in the files pane and then browse to the file on your PC or laptop."}
 
@@ -125,7 +157,7 @@ if(knitr::is_html_output()) {
 }
 ```
 
-
+[![Video 11](https://img.icons8.com/nolan/64/video.png)](http://r.bournemouth.ac.uk:82/short_courses/Intro_to_RStudio/videos/rstudio_11.mov "Link Title")
 
 
 ## Working with markdown documents.
@@ -155,6 +187,7 @@ if(knitr::is_html_output()) {
  knitr::include_graphics("../images/ss_3.gif") 
 }
 ```
+
 
 
 
