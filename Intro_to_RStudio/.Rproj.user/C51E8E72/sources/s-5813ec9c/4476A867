@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "4036544206",
     "id" : "4476A867",
-    "lastKnownWriteTime" : 1595091799,
-    "last_content_update" : 1595091799782,
+    "lastKnownWriteTime" : 1600957172,
+    "last_content_update" : 1600957172106,
     "path" : "~/webpages/short_courses/Intro_to_RStudio/Using_Rstudio.Rmd",
     "project_path" : "Using_Rstudio.Rmd",
     "properties" : {
-        "cursorPosition" : "159,0",
+        "cursorPosition" : "205,0",
         "ignored_words" : "Rstudio\n",
-        "scrollLine" : "150"
+        "scrollLine" : "198"
     },
     "relative_order" : 2,
     "source_on_save" : false,
